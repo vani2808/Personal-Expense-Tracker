@@ -1,5 +1,8 @@
-gvenv/
+@"
+venv/
+**/venv/
 __pycache__/
 *.pyc
 *.db
 .env
+"@ | Set-Content .gitignore
